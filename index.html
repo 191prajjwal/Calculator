@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Calculator using HTML,CSS & Javascript for Micro Project Three given by Cuvette">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <title>Calculator (Micro Project 3)</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <input id="inp" type="text" readonly />
+    <div class="numbtns">
+      <button class="btninp" onclick="enter('7')">7</button>
+      <button class="btninp" onclick="enter('8')">8</button>
+      <button class="btninp" onclick="enter('9')">9</button>
+      <button class="del" onclick="del()">DEL</button>
+      <button class="btninp" onclick="enter('4')">4</button>
+      <button class="btninp" onclick="enter('5')">5</button>
+      <button class="btninp" onclick="enter('6')">6</button>
+      <button class="btninp" onclick="enter('+')">+</button>
+      <button class="btninp" onclick="enter('1')">1</button>
+      <button class="btninp" onclick="enter('2')">2</button>
+      <button class="btninp" onclick="enter('3')">3</button>
+      <button class="btninp" onclick="enter('-')">-</button>
+      <button class="btninp" onclick="enter('.')">.</button>
+      <button class="btninp" onclick="enter('0')">0</button>
+      <button class="btninp" onclick="enter('/')">/</button>
+      <button class="btninp" onclick="enter('*')">x</button>
+      <button class="rst" onclick="rst()">RESET</button>
+      <button class="eql" onclick="opequal()">=</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

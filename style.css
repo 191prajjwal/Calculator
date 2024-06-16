@@ -1,0 +1,97 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+:root{
+  --inpbgcolor:#181F32;
+  --mainbgcolor:#252D44;
+  --btncolor1:#EAE3DB;
+  --btncolor2:#647299;
+  --btncolor3:#D13F30;
+
+  --inputfont:'Segoe UI';
+  --btnfontcolor:#3B4664;
+  --inputfont:'Inter';
+
+}
+
+
+body{
+  background-color: var(--btncolor2);
+}
+
+
+ input{ 
+  position: relative;
+  background-color: var(--inpbgcolor);
+  margin:5vw 38vw ;
+  height: 13vh;
+  width:24vw;
+  border:none;
+  color:white;
+  padding:2vw;
+  display: flex;
+  text-align: right;
+  font-size: 2.3rem;
+  font-family: var(--inputfont);
+  font-weight: 600;
+  
+}
+
+
+
+.numbtns{
+  display:grid;
+  grid-template-columns: 70px 70px 70px 70px;
+  padding:20px;
+  margin:-4vw 38vw ;
+  position:relative;
+  background-color: var(--mainbgcolor);
+  justify-content: center;
+
+}
+
+
+.numbtns button{
+  padding:10px;
+  margin:5px;
+  border:none;
+  border-radius:10px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  font-family: var(--inputfont);
+  
+}
+
+
+
+.btninp{
+  background-color: var(--btncolor1);
+  color:var(--btnfontcolor);
+  
+}
+
+.del{
+  background-color: var(--btncolor2);
+  color: white;
+  
+}
+
+.rst {
+   grid-area: 5/1/6/3 ;
+   background-color: var(--btncolor2);
+   color: white;
+   
+}
+
+.eql{
+  grid-area: 5/3/6/5 ;
+  background-color:var(--btncolor3) ;
+  color: white;
+ 
+}
